@@ -1,0 +1,46 @@
+.CounterContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.Counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.CounterText {
+  margin: 0 15px;
+}
+
+.Decrease {
+  background-color: rgb(240, 83, 59);
+}
+
+.Increase {
+  background-color: rgb(8, 192, 121);
+}
+
+.ResetBtn {
+  background-color: rgb(255, 230, 3);
+  cursor: pointer;
+  font-size: 1.5rem;
+  width: 150px;
+  height: 50px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.Btn {
+  color: white;
+  cursor: pointer;
+  font-size: 2rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  font-weight: bold;
+}
